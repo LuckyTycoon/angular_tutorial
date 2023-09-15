@@ -10,7 +10,7 @@ import { CommonModule } from '@angular/common';
       housing-location works!
     </p>
   `,
-  styleUrls: ['./housing-location.component.css']
+  styleUrls: ['./housing-location.component.css'],
 })
 export class HousingLocationComponent {
 

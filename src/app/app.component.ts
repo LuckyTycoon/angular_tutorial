@@ -5,7 +5,7 @@ import { HomeComponent } from './home/home.component';
   selector: 'app-root',
   standalone: true,
   imports: [
-    HomeComponent
+    HomeComponent,
   ],
   template: `
     <main>
@@ -13,15 +13,12 @@ import { HomeComponent } from './home/home.component';
         <img class="brand-logo" src="/assets/logo.svg" alt="logo" aria-hidden="true">
       </header>
       <section class="content">
-        <form>
-          <input type="text" placeholder="Filter by city">
-          <button class="primary" type="buttom">Search</button>
-        </form>
+        <app-home></app-home>
       </section>
     </main>
   `,
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'homes - app';
+  title = 'homes';
 }
